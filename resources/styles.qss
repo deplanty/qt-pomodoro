@@ -1,0 +1,62 @@
+QLabel[objectName="chrono"] {
+    font-family: Dosis;
+    font-weight: bold;
+    font-size: 72px;
+    color: white;
+}
+
+/*
+Selection button
+*/
+QPushButton[objectName*="push_select"] {
+    padding: 5px;
+    border-radius: 5px;
+    font-family: Dosis;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+}
+
+QPushButton[objectName*="push_select"]:pressed {
+    margin-top: 2px;
+    margin-bottom: -2px;
+}
+
+QPushButton[objectName*="push_select"]:checked {
+    background-color: #25000000; /* argb */
+}
+
+/*
+Start or pause button
+*/
+QPushButton[objectName="start_pause"] {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: white;
+    font-family: Dosis;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+QPushButton[objectName="start_pause"]:pressed {
+    margin-top: 2px;
+    margin-bottom: -2px;
+}
+
+QPushButton[objectName="start_pause"]:checked {
+    background-color: whitesmoke;
+}
+
+/*
+Skip to next button
+*/
+QPushButton[objectName="next"] {
+    background-color: transparent;
+    icon-size: 48px;
+}
+
+QPushButton[objectName="next"]:hover {
+    background-color: transparent;
+    icon-size: 40px;
+}

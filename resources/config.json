@@ -1,0 +1,15 @@
+{
+"pomodoro" : {
+    "color": "#ba4949",
+    "duration": 25,
+    "n_before_long": 3
+    },
+"short_break" : {
+    "color": "#38858a",
+    "duration": 5
+    },
+"long_break" : {
+    "color": "#397097",
+    "duration": 15
+    }
+}
