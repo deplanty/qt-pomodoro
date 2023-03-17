@@ -3,9 +3,9 @@
 import enum
 import sys
 
-from PySide2.QtCore import Qt, QSize, QTimer, QThread
-from PySide2.QtGui import QPalette, QColor, QFontDatabase
-from PySide2.QtWidgets import QApplication, QMainWindow
+from PySide6.QtCore import Qt, QSize, QTimer, QThread
+from PySide6.QtGui import QPalette, QColor, QFontDatabase
+from PySide6.QtWidgets import QApplication, QMainWindow
 
 from src.tools import Chrono
 import src.preload as pl
